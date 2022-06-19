@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: system-ui;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(126, 13, 107);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    /* width: 100%; */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+
+}
+
+a {
+
+    color: #fff;
+    text-decoration-line: none;
+    font-size: 25px;
+
+
+}
+
+ul {
+    text-decoration: line-through;
+    list-style-type: none;
+    text-decoration-line: none;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    margin: 16px;
+    padding-left: 15px;
+
+}
+
+ul li {
+    margin: 16px;
+    padding-right: 35px;
+
+}
+
+/* section 1 */
+
+.titre {
+    margin: 10rem 5rem;
+    text-align: center;
+    font-size: 50px;
+}
+
+.btn-close {
+    cursor: pointer;
+}
+
+.container {
+    margin: 10rem 5rem;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+h2 {
+    margin-top: 9px;
+}
+
+h4 {
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+
+.title {
+    display: flex;
+    margin: 10px 0;
+
+
+}
+
+span {
+    margin: 10px;
+}
+
+/* button {
+    margin-left: 16px;
+} */
+
+.plus {
+    cursor: pointer;
+
+
+}
+
+.prix {
+    display: flex;
+}
+
+.prix1 {
+    margin: 10rem 10rem;
+    display: block;
+    text-align: center;
+
+}
+
+.like {
+    color: red;
+}
